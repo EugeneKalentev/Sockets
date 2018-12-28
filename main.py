@@ -10,7 +10,7 @@ def parse_request(request):
 	parsed = request.split(' ')
 	method = parsed[0]
 	url = parsed[1]
-	#print(method, url)
+	print(method, url)
 	return (method, url)
 
 def generate_content(code, url):
